@@ -1,0 +1,48 @@
+.adminlogin {
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+
+.adminsignup-container {
+    width: 580px;
+    height: 400px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.adminsignup-container h1{
+    margin: 20px 0;
+}
+
+.adminsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.adminsignup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.adminsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
